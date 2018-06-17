@@ -1,0 +1,41 @@
+<resources>
+    <string name="get_data_manager_error">getDataManager error. Please login again.</string>
+    <string name="permission_from_setting_access">Kindly allow Camera And Storage Permission from App Settings, without this permission app could not scan or capture images.</string>
+
+    <string name="permission_must_required_msg">Kindly allow Camera ,location and Storage Permission, without these permission app could not access/save Images and user Location.</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="admob_app_id">ca-app-pub-1711253346877628~1893087286</string>
+    <string name="banner_home_footer">ca-app-pub-1711253346877628/4807025234</string>
+
+    <string name="app_name">ToxoTrip</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="link"> \n \n  https://www.uber.com \n  \n  https://www.olacabs.com</string>
+    <string name="job"> \n \n https://www.indeed.com  \n  \n www.monsterindia.com
+                                \n  \n https://www.linkedin.com \n  \n https://www.naukri.com</string>
+    <string name="shop"> \n \n https://www.flipkart.com  \n  \n  https://www.amazon.com
+                                \n  \n  https://www.ebay.com</string>
+
+    <string name="facebook_app_id">326450611094249</string>
+    <string name="action_settings">Settings</string>
+    <string name="Term">By Sigining Up You Agree With Our Term And Condition</string>
+    <string name="text">Toxotrip is a multipurpose Platform of Booking and search Hotels ,  Search Rooms, Flats, House, direct contact with buyers and sellers , add your business with us and increase your business </string>
+    <string name="textt">Our platform is the open platform of the Internet, it works all over the world
+For an user,  For use  toxotrip platform You declare and confirm that you are not allowed to sell or buy or sell illegal goods and services, materials or information in accordance with the laws of the Republic of India or the country in which you are living or the country where you are resident, illegal and / or permissions No information will be posted, or will not provide information regarding.
+You will not use this platform for any politics-inspired information or advertisement inspired by religious frenzy, advertising a tobacco, alcohol, or for your non-legal business
+Any room or flat or any house related to the dispute or the purchase or purchase of rent
+In the country of which you are resident or in the country in which you are living or the country you are using this platform, the laws and the laws of that country and the law of that country, you are advertising its illegal Not using this platform for business or information
+</string>
+
+    <string name="texttt">Toxotrip is an open platform of selling , buying,  advertising  ,booking Rooms, Flats and HotelsFor using this platform or beginning to use this platform   , The user must agree to its terms and condition
+If the user does not agree with its Terms and Conditions, then the user is not allowed to use it.
+The use of the Platform by the User is free of charge.
+Before buying or selling any goods, check the user at his own level
+Before booking any hotel, check it on your behalf
+This platform does not confirm the claim or mention given by any advertisement or hotel or Buyer or Seller or Supplier
+This platform is not responsible for the user about any advertisement or hotel or buyer or seller or supplier etc.
+</string>
+    <string name="pick_image_intent_text">Choose</string>
+</resources>

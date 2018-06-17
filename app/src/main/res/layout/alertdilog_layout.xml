@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_marginTop="40dp" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:layout_marginTop="10dp" >
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:scrollHorizontally="false"
+                android:text=" Room"
+                android:textSize="@dimen/text_medium"
+                android:textColor="@color/pink"
+                android:textStyle="normal"
+                android:typeface="sans"
+                android:gravity="center"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/decrease"
+                android:background="@color/pink"
+                android:onClick="increaseInteger"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+
+
+                android:layout_height="30dp"
+                android:text="-" />
+
+
+
+
+            <TextView
+                android:id="@+id/integer_number"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+
+
+                android:textSize="17sp"
+                android:textColor="@color/pink"
+                android:textStyle="normal"
+                android:typeface="sans"
+                android:gravity="center"
+
+                android:layout_weight="1"
+                android:text="1" />
+
+
+
+
+            <Button
+                android:id="@+id/increase"
+                android:background="@color/pink"
+                android:onClick="increaseInteger"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginRight="20dp"
+
+                android:layout_height="30dp"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               android:layout_marginTop="10dp" >
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:scrollHorizontally="false"
+                    android:text="Adult"
+                    android:textSize="@dimen/text_medium"
+                    android:textColor="@color/pink"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:gravity="center"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/decreas"
+                    android:background="@color/pink"
+                    android:onClick="increaseInteger"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="20sp"
+                    android:layout_marginRight="10dp"
+
+
+                    android:layout_height="30dp"
+                    android:text="-" />
+
+
+
+
+                <TextView
+                    android:id="@+id/integer_numbe"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+
+
+                    android:textSize="17sp"
+                    android:textColor="@color/pink"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:gravity="center"
+
+                    android:layout_weight="1"
+                    android:text="1" />
+
+
+
+
+                <Button
+                    android:id="@+id/increas"
+                    android:background="@color/pink"
+                    android:onClick="increaseInteger"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginRight="20dp"
+
+                    android:layout_height="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                   android:layout_marginTop="10dp" >
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:scrollHorizontally="false"
+                        android:text="Child"
+                        android:textSize="@dimen/text_medium"
+                        android:textColor="@color/pink"
+                        android:textStyle="normal"
+                        android:typeface="sans"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/decrea"
+                        android:background="@color/pink"
+                        android:onClick="increaseInteger"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:textSize="20sp"
+                        android:layout_marginRight="10dp"
+
+
+                        android:layout_height="30dp"
+                        android:text="-" />
+
+
+
+
+                    <TextView
+                        android:id="@+id/integer_numb"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+
+
+                        android:textSize="17sp"
+                        android:textColor="@color/pink"
+                        android:textStyle="normal"
+                        android:typeface="sans"
+                        android:gravity="center"
+
+                        android:layout_weight="1"
+                        android:text="1" />
+
+
+
+
+                    <Button
+                        android:id="@+id/increa"
+                        android:background="@color/pink"
+                        android:onClick="increaseInteger"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:layout_marginRight="20dp"
+
+                        android:layout_height="30dp"
+                        android:text="+" />
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

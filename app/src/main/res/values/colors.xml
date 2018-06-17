@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00387f</color>
+    <color name="colorPrimaryDark">#00387f</color>
+    <color name="colorAccent">#00387f</color>
+
+    <color name="light_white">#fcfcfc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#00387f</color>
+    <color name="grey">#C2C2C2</color>
+    <color name="black">#030303</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="transparent_dialog">#00000000</color>
+    <color name="light_gray">#F0EEEE</color>
+    <color name="background">#F8F8F8</color>
+
+
+
+    <!-- Screens background color-->
+
+    <!-- dots inactive colors -->
+
+    <!-- dots active colors -->
+
+
+    <!-- Screens background color-->
+
+    <!-- dots inactive colors -->
+
+    <!-- dots active colors -->
+
+
+</resources>

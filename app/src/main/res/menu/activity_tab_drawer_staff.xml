@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <group android:checkableBehavior="single"
+
+
+        >
+
+        <item
+            android:id="@+id/myad"
+            android:icon="@drawable/ic_add_alert_black_24dp"
+
+
+            android:title="My Ad" />
+
+
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share_24dp"
+
+
+
+
+            android:title="Share"
+            />
+        <item
+            android:id="@+id/about"
+android:icon="@drawable/ic_error_outline_black_24dp"
+            android:title="About" />
+
+
+        <item
+            android:id="@+id/feedback"
+
+            android:icon="@drawable/ic_email_black_24dp"
+
+
+
+            android:title="FeedBack" />
+        <item
+            android:id="@+id/Rate"
+
+            android:icon="@drawable/ic_star_border_black_24dp"
+
+
+
+            android:title="Rate The App" />
+        <item
+            android:id="@+id/business"
+            android:icon="@drawable/ic_device_hub_black_24dp"
+
+
+            android:title="Add Your Business or Hotel" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_arrow_back_black_24dp"
+
+
+            android:title="Logout" />
+
+
+    </group>
+
+
+
+
+
+
+
+
+</menu>

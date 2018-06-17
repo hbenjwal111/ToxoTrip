@@ -1,0 +1,354 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            >
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:layout_marginTop="10dp"
+                        android:focusableInTouchMode="true"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@color/grey"
+
+                            android:layout_marginTop="1dp"
+
+                            android:fontFamily="sans"
+                            android:gravity="left|center_vertical|center_horizontal"
+                            android:text="House For Sale"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="@dimen/text_large"
+                            android:paddingLeft="10dp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/input_layout_properties"
+                        android:paddingLeft="5dp">
+
+                        <EditText
+                            android:id="@+id/properties"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="left|center"
+                            android:hint="Properties Type"
+                            android:inputType="text"
+                            android:textSize="@dimen/text_medium"
+                            android:textStyle="normal"
+
+
+
+                            android:typeface="sans"
+                            android:windowSoftInputMode="stateHidden"
+
+                            />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/input_layout_area"
+                android:paddingLeft="5dp">
+
+                <EditText
+                    android:id="@+id/area"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center"
+                    android:hint="Area In"
+                    android:inputType="text"
+                    android:textSize="@dimen/text_medium"
+                    android:textStyle="normal"
+
+
+
+                    android:typeface="sans"
+                    android:windowSoftInputMode="stateHidden"
+
+                    />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_bed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="5dp"
+                        >
+
+                        <EditText
+                            android:id="@+id/bed"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="left|center"
+                            android:hint="BedRooms"
+                            android:inputType="text"
+
+                            android:textSize="@dimen/text_medium"
+                            android:textStyle="normal"
+                            android:typeface="sans"
+                            android:windowSoftInputMode="stateHidden"
+
+                            />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_pricerange"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5dp">
+
+                        <EditText
+                            android:id="@+id/pricerange"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="left|center"
+                            android:hint="Price Range"
+
+
+                            android:inputType="text"
+
+                            android:textSize="@dimen/text_medium"
+                            android:textStyle="normal"
+
+
+
+                            android:typeface="sans"
+                            android:windowSoftInputMode="stateHidden"
+
+                            />
+
+
+                    </android.support.design.widget.TextInputLayout>
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="5dp"
+                        android:id="@+id/input_layout_Available">
+
+                        <EditText
+                            android:id="@+id/available"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="left|center"
+
+                            android:hint="Available From"
+                            android:textSize="@dimen/text_medium"
+                            android:textStyle="normal"
+
+
+
+                            android:typeface="sans"
+                            android:windowSoftInputMode="stateHidden"
+
+                            />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_you"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="5dp">
+
+                        <EditText
+                            android:id="@+id/youare"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="left|center"
+
+                            android:hint="You Are"
+                            android:textSize="@dimen/text_medium"
+                            android:textStyle="normal"
+
+
+
+                            android:typeface="sans"
+                            android:windowSoftInputMode="stateHidden"
+
+                            />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="5dp">
+
+                        <EditText
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="left|center"
+
+                            android:hint="Ad Title"
+                            android:inputType="text"
+
+                            android:textSize="@dimen/text_medium"
+                            android:textStyle="normal"
+
+
+
+                            android:typeface="sans"
+                            android:windowSoftInputMode="stateHidden"
+
+                            />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_des"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5dp">
+
+                        <EditText
+                            android:id="@+id/desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="left|center"
+                            android:hint="Description"
+
+
+                            android:inputType="text"
+
+                            android:textSize="@dimen/text_medium"
+                            android:textStyle="normal"
+
+
+
+                            android:typeface="sans"
+                            android:windowSoftInputMode="stateHidden"
+
+                            />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_reges"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5dp">
+
+                        <EditText
+                            android:id="@+id/regestration"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="left|center"
+                            android:hint="Year of Regestration"
+
+
+                            android:inputType="number"
+
+                            android:textSize="@dimen/text_medium"
+                            android:textStyle="normal"
+
+
+
+                            android:typeface="sans"
+                            android:windowSoftInputMode="stateHidden"
+
+                            />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="5dp">
+
+                        <EditText
+                            android:id="@+id/color"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="left|center"
+                            android:hint="Color"
+
+
+                            android:inputType="text"
+
+                            android:textSize="@dimen/text_medium"
+                            android:textStyle="normal"
+
+
+
+                            android:typeface="sans"
+                            android:windowSoftInputMode="stateHidden"
+
+                            />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

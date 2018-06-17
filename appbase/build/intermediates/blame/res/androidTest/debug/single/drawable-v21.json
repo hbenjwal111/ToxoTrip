@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\ToxoTrip\\appbase\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\himanshu\\.android\\build-cache\\c51c585139d54ba01fdcb6ad8c57654ba70eb6e6\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\ToxoTrip\\appbase\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\himanshu\\.android\\build-cache\\c51c585139d54ba01fdcb6ad8c57654ba70eb6e6\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\ToxoTrip\\appbase\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\himanshu\\.android\\build-cache\\c51c585139d54ba01fdcb6ad8c57654ba70eb6e6\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\ToxoTrip\\appbase\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\himanshu\\.android\\build-cache\\c51c585139d54ba01fdcb6ad8c57654ba70eb6e6\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\ToxoTrip\\appbase\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\himanshu\\.android\\build-cache\\1b6c45df467d2f02c022fe11ee18a30a7209f26f\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    }
+]
